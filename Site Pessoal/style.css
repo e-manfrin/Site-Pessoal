@@ -1,0 +1,224 @@
+body {
+    font-family: 'Montserrat', sans-serif;  
+}
+
+/*Cabeçário*/
+header {
+    background: #000000;    
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+
+nav {
+    position: absolute;
+    top: 70px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #e6007e;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;   
+    border: none;
+}
+
+/*Página index*/
+.principal {
+    background: #000000;
+    color: #FFFFFF;
+    margin: 0 auto;
+    padding: 3em 0;
+    width: 940px;
+}
+
+.tituloPrincipal {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 2em;
+    margin: 0 0 1em;
+    /*clear: left;*/   
+}
+
+.foto {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.mapa {
+    padding: 3em 0;
+    background: #000000;
+    
+}
+
+.mapaConteudo {
+    width: 940px;
+    margin: 0 auto;    
+}
+
+.conteudo {
+    background: #000000;
+    color: #FFFFFF;
+    padding: 0 0 5em 0;
+    
+}
+
+.classeConteudo {
+    width: 940px;
+    margin: 4em auto;
+
+}
+
+.listaConteudo {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itens {
+    line-height: 1.5;
+}
+
+.itens:first-child {
+    font-weight: bold;
+}
+
+.itens:before {
+    content: "★";
+}
+
+.imagemConteudo {
+    width: 70%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #3a393a;
+}
+
+.imagemConteudo:hover {
+    opacity: 0.3;
+}
+
+.video {
+    margin: 1em auto;
+    width: 560px;
+}
+
+/*Página projeto*/
+
+/*Página contato */
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 20px 0 0;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: #ff3399;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    transform: scale(1.2);
+    background: #e6007e;
+}
+
+table {
+    margin: 20px 0 40px;
+    
+    
+}
+
+thead {
+    background: #000000;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+td {
+    border: 10px solid #000000;
+    
+}
+
+.saopaulo {
+    text-align: center;
+}
+
+/*rodapé*/
+footer {
+    text-align: center;
+    background: url("img/fundoPretoLiso.png");     
+}
+
+
+.img {
+    position: relative;
+    width: 10%;
+}
+
+.copyright {
+    color: #e6007e;
+    font-size: 13px;
+    padding: 10px 0 10px 0;
+}
+
